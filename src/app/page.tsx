@@ -1,9 +1,15 @@
-import React from 'react'
+import { Card, CardContent, CardHeader } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
 
 const page = () => {
   return (
-    <div className='bg-blue-300'>page</div>
-  )
-}
+    <Card>
+      <CardHeader>T3 ap template</CardHeader>
+      <CardContent>
+        <Button>Get started</Button>
+      </CardContent>
+    </Card>
+  );
+};
 
-export default page
+export default page;
